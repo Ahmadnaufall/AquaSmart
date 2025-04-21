@@ -1,1 +1,1 @@
-https://github.com/Ahmadnaufall/AquaSmart/blob/main/DIAGRAM/diagram%20blok.png
+![Diagram Blok](https://raw.githubusercontent.com/Ahmadnaufall/AquaSmart/main/DIAGRAM/diagram%20blok.png)
