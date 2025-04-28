@@ -2,7 +2,7 @@
 
 # 🌊 AquaSmart
 ## Deskripsi Proyek
-AquaSmart adalah sistem otomatisasi berbasis Arduino Uno untuk pemberian pakan ikan dan monitoring kualitas air melalui pengukuran pH. Proyek ini bertujuan untuk mempermudah pemeliharaan akuarium atau kolam kecil dengan fitur kontrol pintar via perangkat mobile menggunakan Blynk.
+AquaSmart adalah sistem otomatisasi berbasis Arduino Uno untuk pemberian pakan ikan dan monitoring kualitas air melalui pengukuran pH. Proyek ini bertujuan untuk mempermudah pemeliharaan akuarium atau kolam kecil dengan fitur kontrol pintar otomatis
 
 Fitur utama:
 
@@ -38,8 +38,20 @@ Data dikirim via UART ke Blynk (melalui HC-05).
 
 Blynk menampilkan nilai pH pada dashboard.
 
-Jika pH <6 atau >8, sistem mengirim notifikasi kepada pengguna.
+Jika pH <6 atau >8, sistem mengirim notifikasi peringatan berupa tampilan di LCD dan menyalanya Buzzer.
 
 Timer internal memicu pemberian pakan secara otomatis.
 
-Pengguna juga dapat memicu pemberian pakan manual melalui aplikasi.
+Pengguna juga dapat memicu pemberian pakan manual melalui push button.
+
+
+## 📊 MIND MAP BLOK DIAGRAM DAN FLOWCHART
+
+### MIND MAP
+![AquaSmart Preview](DIAGRAM/MindMap.jpeg)
+
+### BLOK DIAGRAM
+
+
+### FLOWCHART
+![AquaSmart Preview](DIAGRAM/Flowchart.png)
