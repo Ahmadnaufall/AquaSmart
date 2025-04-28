@@ -1,4 +1,4 @@
-![AquaSmart Banner](LOGO/LOGO AQUASMART.jpg)
+![AquaSmart Preview](LOGO/LOGO AQUASMART.jpg)
 
 # 🌊 AquaSmart
 ## Deskripsi Proyek
