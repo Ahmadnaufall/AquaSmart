@@ -1,4 +1,5 @@
-# AquaSmart
+![AquaSmart Banner](LOGO/LOGO AQUASMART.jpg)
+
 # 🌊 AquaSmart
 ## Deskripsi Proyek
 AquaSmart adalah sistem otomatisasi berbasis Arduino Uno untuk pemberian pakan ikan dan monitoring kualitas air melalui pengukuran pH. Proyek ini bertujuan untuk mempermudah pemeliharaan akuarium atau kolam kecil dengan fitur kontrol pintar via perangkat mobile menggunakan Blynk.
