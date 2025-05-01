@@ -3,8 +3,8 @@
   "author": "ChatGPT",
   "editor": "wokwi",
   "parts": [
-    { "type": "wokwi-arduino-uno", "id": "uno", "top": 100, "left": 100, "attrs": {} },
-    { "type": "wokwi-servo", "id": "servo1", "top": 286, "left": 432, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 106.2, "left": 95.4, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 295.6, "left": 432, "attrs": {} },
     { "type": "wokwi-led", "id": "led1", "top": -32.4, "left": -25, "attrs": { "color": "red" } },
     {
       "type": "wokwi-lcd1602",
@@ -31,21 +31,21 @@
   ],
   "connections": [
     [ "servo1:V+", "uno:5V", "red", [ "h-38.4", "v0.1", "h-191.2" ] ],
-    [ "servo1:PWM", "uno:9", "green", [ "h-28.8", "v0.2", "h-19.2", "v-297.6", "h-121" ] ],
-    [ "led1:A", "uno:3", "green", [ "v38.4", "h327" ] ],
-    [ "led1:C", "uno:GND.1", "black", [ "v48", "h225.5" ] ],
-    [ "lcd1:GND", "uno:GND.1", "black", [ "h-76.8", "v163.2", "h-168.5" ] ],
-    [ "lcd1:VCC", "uno:5V", "red", [ "h-28.8", "v0.1", "h-38.4", "v374.4", "h-133.6" ] ],
-    [ "lcd1:SDA", "uno:A4", "blue", [ "h-57.6", "v374.6", "h-57.2" ] ],
-    [ "lcd1:SCL", "uno:A5", "blue", [ "h-48", "v374.7", "h-57.3" ] ],
-    [ "phSensor:VCC", "uno:5V", "red", [ "h-0.8", "v28.8", "h221.6" ] ],
-    [ "phSensor:GND", "uno:GND.2", "black", [ "v48", "h250.3" ] ],
-    [ "phSensor:SIG", "uno:A0", "green", [ "h-0.4", "v38.4", "h279.2" ] ],
-    [ "btn1:1.l", "uno:7", "green", [ "v-57.6", "h298.6" ] ],
-    [ "btn1:2.r", "uno:GND.1", "black", [ "v-67", "h158.1" ] ],
-    [ "bz1:2", "uno:8", "green", [ "h172.4", "v0", "h61.8" ] ],
-    [ "bz1:1", "uno:GND.1", "black", [ "v9.6", "h186.7" ] ],
-    [ "servo1:GND", "uno:GND.3", "black", [ "h-134.4", "v0", "h-76.2" ] ]
+    [ "led1:C", "uno:GND.1", "black", [ "v76.8", "h225.5" ] ],
+    [ "lcd1:GND", "uno:GND.1", "black", [ "h-76.8", "v172.8", "h-168.5" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-28.8", "v0.1", "h-38.4", "v384", "h-138.2" ] ],
+    [ "lcd1:SDA", "uno:A4", "blue", [ "h-57.6", "v384.2", "h-61.8" ] ],
+    [ "lcd1:SCL", "uno:A5", "blue", [ "h-48", "v384.3", "h-61.9" ] ],
+    [ "phSensor:VCC", "uno:5V", "red", [ "h-0.8", "v38.4", "h217" ] ],
+    [ "phSensor:GND", "uno:GND.2", "black", [ "v57.6", "h245.7" ] ],
+    [ "phSensor:SIG", "uno:A0", "green", [ "h-0.4", "v48", "h274.6" ] ],
+    [ "btn1:2.r", "uno:GND.1", "black", [ "h9.8", "v-47.8", "h148.3" ] ],
+    [ "bz1:1", "uno:GND.1", "black", [ "v48", "h148.3" ] ],
+    [ "servo1:GND", "uno:GND.3", "black", [ "h-134.4", "v0", "h-76.2" ] ],
+    [ "led1:A", "uno:3", "green", [ "v57.6", "h316.8" ] ],
+    [ "btn1:1.l", "uno:7", "green", [ "h-9.6", "v-67.2", "h307.2" ] ],
+    [ "bz1:2", "uno:8", "green", [ "v19.2", "h191.6" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "h-57.6", "v-287.8", "h-115.2", "v38.4" ] ]
   ],
   "dependencies": {}
 }
