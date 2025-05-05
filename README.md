@@ -66,7 +66,7 @@ Pengguna juga dapat memicu pemberian pakan manual melalui push button.
 ![AquaSmart Preview](DIAGRAM/MindMap.jpeg)
 
 ### BLOK DIAGRAM
-![AquaSmart Preview](DIAGRAM/DIAGRAM-ALUR.png)
+![AquaSmart Preview](DIAGRAM/alurdiagram.png)
 
 ### FLOWCHART
 ![AquaSmart Preview](DIAGRAM/Flowchart.png)
