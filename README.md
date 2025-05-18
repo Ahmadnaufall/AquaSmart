@@ -70,3 +70,6 @@ Pengguna juga dapat memicu pemberian pakan manual melalui push button.
 
 ### FLOWCHART
 ![AquaSmart Preview](DIAGRAM/Flowchart.png)
+
+### DESIGN FIGMA
+![AquaSmart Preview](DIAGRAM/Flowchart.png)
