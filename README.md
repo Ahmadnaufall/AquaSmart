@@ -63,7 +63,7 @@ Pengguna juga dapat memicu pemberian pakan manual melalui push button.
 ## 📊 MIND MAP BLOK DIAGRAM DAN FLOWCHART
 
 ### MIND MAP
-![AquaSmart Preview](DIAGRAM/MindMap.jpeg)
+![AquaSmart Preview](DIAGRAM/MINDMAP.png)
 
 ### BLOK DIAGRAM
 ![AquaSmart Preview](DIAGRAM/alurdiagram.png)
